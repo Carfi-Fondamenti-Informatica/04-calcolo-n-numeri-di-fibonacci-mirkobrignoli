@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    float n = 0,primo = 1,secondo = 1,terzo = 0;
+    int n = 0,primo = 1,secondo = 1,terzo = 0;
     cout << "scegli il valore" << endl;
     cin >> n;
     if(n <= 2){
@@ -19,7 +19,7 @@ int main()
             primo = secondo;
             secondo = terzo;
             cout << terzo << endl;
-            
+
             n--;
         }
     }
