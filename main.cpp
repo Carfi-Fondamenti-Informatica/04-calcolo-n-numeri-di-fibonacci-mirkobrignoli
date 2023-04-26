@@ -19,10 +19,10 @@ int main()
 
             n--;
         }
-        else {
-        cout << "errore" << endl;
-    }
     }
     
+    else {
+        cout << "errore" << endl;
+    }
     return 0;
 }
