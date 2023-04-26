@@ -11,7 +11,7 @@ int main()
     if(a <= 2){
         cout << "errore" << endl;
     }
-    else if (a > 2){
+    else if (a >= 2){
         cout << primo << endl;
         cout << secondo <<endl;
         while (a-2 > 0){
